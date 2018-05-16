@@ -1,0 +1,7 @@
+{
+  "utterance": "Tell me a story",
+  "intent_type": "StoryTimeIntent",
+  "intent": {
+    "ThankYouKeyword": "Tell me a story"
+  }
+}
