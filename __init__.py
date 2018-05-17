@@ -40,7 +40,7 @@ class StoryTimeSkill(MycroftSkill):
     # This method loads the files needed for the skill's functioning, and
     # creates and registers each intent that the skill uses
     def initialize(self):
-    #    self.load_data_files(dirname(__file__))
+        self.load_data_files(dirname(__file__))
 
         story_time_intent = IntentBuilder("StoryTimeIntent").
             require("StoryTimeKeyword").build()
